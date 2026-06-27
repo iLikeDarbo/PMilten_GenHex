@@ -1,6 +1,9 @@
 # genHEX
 Methods and data for generalized design of heat exchangers. 
 
+## what is changed in this fork
+there are a number of places that have 1-D numpy arrays that throw up errors. Add .item() to the end of these 
+
 Related publications:  
 _Generalized Method for the Conceptual Design of Compact Heat Exchangers_  
 Petter Miltén, Isak Johnsson, Anders Lundbladh, Carlos Xisto  
