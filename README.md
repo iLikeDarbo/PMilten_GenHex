@@ -1,6 +1,10 @@
 # genHEX
 Methods and data for generalized design of heat exchangers. 
 
+Original is at https://github.com/PMilten/genHEX
+
+This is my local fork to get it working for me.
+
 ## what is changed in this fork
 there are a number of places that have 1-D numpy arrays that throw up errors. Add .item() to the end of these 
 
